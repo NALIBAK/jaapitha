@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["/jaapitha-app/_next/static/chunks/0dbhjjzl8qfwv.js","/jaapitha-app/_next/static/chunks/0r34._4.juegq.js"],"default"]
-3:I[37457,["/jaapitha-app/_next/static/chunks/0dbhjjzl8qfwv.js","/jaapitha-app/_next/static/chunks/0r34._4.juegq.js"],"default"]
+2:I[39756,["/jaapitha-app/_next/static/chunks/0dbhjjzl8qfwv.js","/jaapitha-app/_next/static/chunks/11ifut-xyn89a.js","/jaapitha-app/_next/static/chunks/0x5b24a2ds_il.js"],"default"]
+3:I[37457,["/jaapitha-app/_next/static/chunks/0dbhjjzl8qfwv.js","/jaapitha-app/_next/static/chunks/11ifut-xyn89a.js","/jaapitha-app/_next/static/chunks/0x5b24a2ds_il.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"WwyIMvPY8AfPStGhn3g3l"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"xChs5scMbACo6mGWlXQap"}
