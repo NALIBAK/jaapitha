@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jaapitha-v1';
+const CACHE_NAME = 'jaapitha-v2';
 const ASSETS = [
   './',
   './index.html',
