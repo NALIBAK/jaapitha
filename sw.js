@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jaapitha-v3';
+const CACHE_NAME = 'jaapitha-v4';
 const ASSETS = [
   './',
   './index.html',
@@ -32,6 +32,16 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   // Only cache GET requests and non-Google Sheets APIs
   if (event.request.method !== 'GET' || event.request.url.includes('sheets.googleapis.com')) {
+    return;
+  }
+  
+  // If this is a navigation request, serve index.html
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      caches.match('./index.html').then((response) => {
+        return response || caches.match('index.html').then((r) => r || fetch(event.request));
+      })
+    );
     return;
   }
   
